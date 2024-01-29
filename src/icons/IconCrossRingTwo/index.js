@@ -1,0 +1,1 @@
+export { IconCrossRingTwo } from "./IconCrossRingTwo";
