@@ -1,21 +1,16 @@
-
+/* import logo from './logo.svg'; */
 import './App.css';
-import React from 'react';
-import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
-import { Menu } from './screens/Menu';
+/* import { Menu } from './screens/Menu/Menu'; */
+import { DropDown } from './screens/DropDown/DropDown';
+import { Menu } from './screens/Menu/Menu';
+import { Section } from './screens/Section';
+
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/"  Component= {<Menu/>} />
-        </Routes>
-        {/* <Routes>
-        <Route path="/" element={<DropDown/>} />
-        </Routes>
-        {/* <Routes>
-        <Route path="/" element={} />
-        </Routes> */} 
-    </Router>
+    <div className="App">
+     <Menu/> 
+     <Section/>
+    </div>
   );
 }
 
