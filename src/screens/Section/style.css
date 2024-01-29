@@ -1,0 +1,337 @@
+.section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .section .div {
+    background-color: #ffffff;
+    height: 580px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .section .group {
+    height: 1274px;
+    left: -416px;
+    position: absolute;
+    top: -1814px;
+    transform: rotate(-180deg);
+    width: 1522px;
+  }
+  
+  .section .group-2 {
+    height: 1274px;
+    mix-blend-mode: hard-light;
+    position: relative;
+  }
+  
+  .section .overlap-group {
+    height: 1328px;
+    left: 1337px;
+    position: absolute;
+    top: 15303px;
+    width: 2054px;
+  }
+  
+  .section .shape {
+    height: 1117px;
+    left: 584px;
+    position: absolute;
+    top: 210px;
+    transform: rotate(180deg);
+    width: 1470px;
+  }
+  
+  .section .img {
+    height: 592px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 947px;
+  }
+  
+  .section .shape-2 {
+    height: 431px;
+    left: 1429px;
+    position: absolute;
+    top: 253px;
+    transform: rotate(180deg);
+    width: 625px;
+  }
+  
+  .section .rectangle {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    height: 1560px;
+    left: 398px;
+    position: absolute;
+    top: 163px;
+    width: 1560px;
+  }
+  
+  .section .overlap {
+    background-image: url(https://c.animaapp.com/wBFcRtRx/img/group-427321160.png);
+    background-size: 100% 100%;
+    height: 580px;
+    left: 667px;
+    position: absolute;
+    top: 0;
+    width: 773px;
+  }
+  
+  .section .icon-cross-ring-two {
+    height: 115px !important;
+    left: 233px !important;
+    position: absolute !important;
+    top: 189px !important;
+    width: 115px !important;
+  }
+  
+  .section .group-3 {
+    height: 204px;
+    left: 192px;
+    position: absolute;
+    top: 371px;
+    width: 94px;
+  }
+  
+  .section .chat {
+    background-color: #171a52;
+    height: 300px;
+    left: 525px;
+    position: absolute;
+    top: 251px;
+    width: 220px;
+  }
+  
+  .section .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 14.3px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: -0.43px;
+    line-height: normal;
+    position: absolute;
+    top: 137px;
+    width: 169px;
+  }
+  
+  .section .div-wrapper {
+    height: 24px;
+    left: 41px;
+    position: absolute;
+    top: 25px;
+    width: 102px;
+  }
+  
+  .section .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.48px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 100px;
+  }
+  
+  .section .overlap-group-wrapper {
+    height: 36px;
+    left: 41px;
+    position: absolute;
+    top: 76px;
+    width: 79px;
+  }
+  
+  .section .overlap-group-2 {
+    height: 36px;
+    position: relative;
+  }
+  
+  .section .rectangle-wrapper {
+    height: 22px;
+    left: 11px;
+    position: absolute;
+    top: 7px;
+    width: 56px;
+  }
+  
+  .section .rectangle-2 {
+    border: 4.78px solid;
+    border-color: #ffffff;
+    border-radius: 25.16px;
+    height: 56px;
+    left: 17px;
+    position: relative;
+    top: -17px;
+    transform: rotate(-90deg);
+    width: 22px;
+  }
+  
+  .section .group-4 {
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 79px;
+  }
+  
+  .section .group-5 {
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 11px;
+  }
+  
+  .section .group-6 {
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 11px;
+  }
+  
+  .section .rectangle-3 {
+    background-color: #ffffff;
+    border: 0px none;
+    border-radius: 25.16px;
+    height: 11px;
+    left: 3px;
+    position: relative;
+    top: -3px;
+    transform: rotate(-90deg);
+    width: 5px;
+  }
+  
+  .section .group-7 {
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 32px;
+    transform: rotate(180deg);
+    width: 11px;
+  }
+  
+  .section .group-8 {
+    height: 36px;
+    left: 67px;
+    position: absolute;
+    top: 0;
+    width: 11px;
+  }
+  
+  .section .group-9 {
+    height: 1274px;
+    left: -1285px;
+    mix-blend-mode: hard-light;
+    position: absolute;
+    top: 340px;
+    transform: rotate(-180deg);
+    width: 1522px;
+  }
+  
+  .section .overlap-2 {
+    height: 1328px;
+    left: 468px;
+    position: absolute;
+    top: 17457px;
+    width: 2054px;
+  }
+  
+  .section .shape-3 {
+    height: 82px;
+    left: -26px;
+    position: absolute;
+    top: 1034px;
+    transform: rotate(180deg);
+    width: 263px;
+  }
+  
+  .section .p {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 247px;
+    letter-spacing: -0.54px;
+    line-height: normal;
+    position: absolute;
+    top: 289px;
+    width: 249px;
+  }
+  
+  .section .text-wrapper-3 {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    left: 406px;
+    letter-spacing: -0.39px;
+    line-height: normal;
+    position: absolute;
+    top: 457px;
+  }
+  
+  .section .mobility-re-done {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 28.2px;
+    font-weight: 700;
+    left: 236px;
+    letter-spacing: 0;
+    line-height: 28.2px;
+    position: absolute;
+    text-align: center;
+    top: 174px;
+  }
+  
+  .section .span {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 28.2px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 28.2px;
+  }
+  
+  .section .text-wrapper-4 {
+    font-size: 63.8px;
+    line-height: 63.8px;
+  }
+  
+  .section .overlap-wrapper {
+    height: 38px;
+    left: 244px;
+    position: absolute;
+    top: 449px;
+    width: 140px;
+  }
+  
+  .section .overlap-3 {
+    background-color: #171a52;
+    height: 38px;
+    position: relative;
+    width: 138px;
+  }
+  
+  .section .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    left: 20px;
+    letter-spacing: -0.39px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+  }
+  
