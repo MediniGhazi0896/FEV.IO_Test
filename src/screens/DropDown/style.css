@@ -1,0 +1,221 @@
+.drop-down {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .drop-down .div {
+    background-color: #ffffff;
+    height: 100px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .drop-down .line {
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 97px;
+    width: 1440px;
+  }
+  
+  .drop-down .group {
+    height: 62px;
+    left: 281px;
+    position: absolute;
+    top: 19px;
+    width: 879px;
+  }
+  
+  .drop-down .group-2 {
+    height: 56px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 61px;
+  }
+  
+  .drop-down .icon-road {
+    height: 24px !important;
+    left: 18px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 24px !important;
+  }
+  
+  .drop-down .text-wrapper {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.36px;
+    line-height: normal;
+    position: absolute;
+    top: 38px;
+  }
+  
+  .drop-down .group-3 {
+    height: 61px;
+    left: 686px;
+    position: absolute;
+    top: 2px;
+    width: 67px;
+  }
+  
+  .drop-down .text-wrapper-2 {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.36px;
+    line-height: 14.4px;
+    position: absolute;
+    text-align: center;
+    top: 33px;
+  }
+  
+  .drop-down .icon-intersect {
+    height: 24px !important;
+    left: 21px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 24px !important;
+  }
+  
+  .drop-down .group-4 {
+    height: 55px;
+    left: 266px;
+    position: absolute;
+    top: 0;
+    width: 78px;
+  }
+  
+  .drop-down .text-wrapper-3 {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.36px;
+    line-height: 14.4px;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    white-space: nowrap;
+  }
+  
+  .drop-down .icon-robot {
+    height: 27px !important;
+    left: 25px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 27px !important;
+  }
+  
+  .drop-down .group-5 {
+    height: 62px;
+    left: 545px;
+    position: absolute;
+    top: 0;
+    width: 72px;
+  }
+  
+  .drop-down .systems-engineering {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.36px;
+    line-height: 14.4px;
+    position: absolute;
+    text-align: center;
+    top: 34px;
+  }
+  
+  .drop-down .frame {
+    height: 26px;
+    left: 22px;
+    position: absolute;
+    top: 0;
+    width: 26px;
+  }
+  
+  .drop-down .group-6 {
+    height: 58px;
+    left: 412px;
+    position: absolute;
+    top: 4px;
+    width: 64px;
+  }
+  
+  .drop-down .functional-safety {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.36px;
+    line-height: 14.4px;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+  }
+  
+  .drop-down .img {
+    height: 20px;
+    left: 22px;
+    position: absolute;
+    top: -1px;
+    width: 18px;
+  }
+  
+  .drop-down .group-7 {
+    height: 60px;
+    left: 130px;
+    position: absolute;
+    top: 2px;
+    width: 67px;
+  }
+  
+  .drop-down .connected-mobility {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.36px;
+    line-height: 14.4px;
+    position: absolute;
+    text-align: center;
+    top: 32px;
+  }
+  
+  .drop-down .icon-dashboard-car {
+    height: 23px !important;
+    left: 21px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 23px !important;
+  }
+  
+  .drop-down .group-8 {
+    height: 61px;
+    left: 822px;
+    position: absolute;
+    top: 1px;
+    width: 59px;
+  }
+  
+  .drop-down .icon-graphic {
+    height: 24px !important;
+    left: 16px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 24px !important;
+  }
+  
