@@ -17,16 +17,10 @@ export const Section = () => {
               <div class="right3"></div>
             </div>
           </div>
-
           <IconCrossRingTwo1 className="icon-cross-ring-two" />
           <img className="group-3" alt="Group" src="https://c.animaapp.com/wBFcRtRx/img/group-427320261.png" />
-
-          <Chat/>
+          <Chat/> {/* Here Is A call For The Chat Component */}
         </div>
-     {/*  <div className="group-9">  
-        
-          <img className="shape-3" alt="Shape" src="https://c.animaapp.com/wBFcRtRx/img/shape-3.svg" />
-        </div> */} 
         <div className="sectionleft">
           <p className="p">
             The world’s leading mobility companies work with us to realize their software mobility goals.
