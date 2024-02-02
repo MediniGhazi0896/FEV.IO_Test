@@ -2,6 +2,7 @@ import React from "react";
 import { IconCrossRingTwo1 } from "../../icons/IconCrossRingTwo1";
 import "./style.css";
 import { Chat } from "../../screens/Chat";
+import { SectionLeftHalf } from "../SectionLeftHalf/SectionLeftHalf";
 
 export const Section = () => {
   return (
@@ -21,24 +22,7 @@ export const Section = () => {
           <img className="group-3" alt="Group" src="https://c.animaapp.com/wBFcRtRx/img/group-427320261.png" />
           <Chat/> {/* Here Is A call For The Chat Component */}
         </div>
-        <div className="sectionleft">
-          <p className="p">
-            The world’s leading mobility companies work with us to realize their software mobility goals.
-          </p>
-          <div className="text-wrapper-3">find your solution</div>
-          <p className="mobility-re-done">
-            <span className="span">
-              mobility (re)done
-              <br />
-            </span>
-            <span className="text-wrapper-4">smarter</span>
-          </p>
-          <div className="overlap-wrapper">
-            <div className="overlap-3">
-              <div className="text-wrapper-5"><a id="Link" href="https://www.Google.com">book a demo →</a></div>
-            </div>
-          </div>
-        </div>
+        <SectionLeftHalf/>
       </div>
     </div>
   );

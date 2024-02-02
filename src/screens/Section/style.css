@@ -8,7 +8,7 @@
 }
 
 .section .div {
-  background-color: #ffffff;
+  background-color: #e0dbfa;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -306,87 +306,4 @@
   background: rgb(0, 0, 0)
 }
 
-/* Here Starts The Styling of the left Half of the whole section  */
-
-.sectionleft .p {
-  color: #000000;
-  font-family: "Poppins", Helvetica;
-  font-size: 18px;
-  font-weight: 600;
-  left: 20%;
-  letter-spacing: -0.54px;
-  line-height: normal;
-  position: absolute;
-  text-align: left;
-  width: 249px;
-  bottom: 50%;
-}
-
-.sectionleft .text-wrapper-3 {
-  color: #000000;
-  font-family: "Poppins", Helvetica;
-  font-size: 13px;
-  font-weight: 600;
-  left: 28%;
-  letter-spacing: -0.39px;
-  line-height: normal;
-  position: absolute;
-  bottom: 46%;
-}
-.sectionleft .mobility-re-done {
-  color: #000000;
-  font-family: "Poppins", Helvetica;
-  font-size: 28.2px;
-  font-weight: 700;
-  left: 20%;
-  letter-spacing: 0;
-  line-height: 28.2px;
-  position: absolute;
-  text-align: center;
-  bottom: 58%;
-}
-
-.sectionleft .span {
-  color: #000000;
-  font-family: "Poppins", Helvetica;
-  font-size: 28.2px;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 28.2px;
-}
-
-.sectionleft .text-wrapper-4 {
-  font-size: 63.8px;
-  line-height: 63.8px;
-}
-
-.sectionleft .overlap-wrapper {
-  height: 38px;
-  left: 18%;
-  position: absolute;
-  bottom: 45%;
-  width: 140px;
-
-}
-
-.sectionleft .overlap-3 {
-  background-color: #171a52;
-  height: 38px;
-  position: relative;
-  width: 138px;
-  left: 20%;
-  
-}
-
-.sectionleft .text-wrapper-5 #Link {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 13px;
-  font-weight: 600;
-  left: 20px;
-  letter-spacing: -0.39px;
-  line-height: normal;
-  position: absolute;
-  top: 9px;
-}
 
