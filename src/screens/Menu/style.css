@@ -1,120 +1,121 @@
 .menu {
-    background-color: #ff0808;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100vw;
-  }
-  
-  .menu .navbar-wrapper {
-    background-color: #ffffff;
-    height: 60px;
-    overflow: hidden;
-    width: 100vw;
-  }
-  
-  .menu .div {
-    height: 60px;
-    position: relative;
-  }
-  
-  .menu .text-wrapper {
-    color: #000000;
-    font-family: "Poppins", Helvetica;
-    font-size: 13px;
-    font-weight: 600;
-    left: 729px;
-    letter-spacing: -0.39px;
-    line-height: normal;
-    position: absolute;
-    top: 19px;
-  }
-  
-  .menu .text-wrapper-2 {
-    color: #000000;
-    font-family: "Poppins", Helvetica;
-    font-size: 13px;
-    font-weight: 600;
-    left: 609px;
-    letter-spacing: -0.39px;
-    line-height: normal;
-    position: absolute;
-    top: 19px;
-  }
-  
-  .menu .text-wrapper-3 {
-    color: #000000;
-    font-family: "Poppins", Helvetica;
-    font-size: 13px;
-    font-weight: 600;
-    left: 833px;
-    letter-spacing: -0.39px;
-    line-height: normal;
-    position: absolute;
-    top: 19px;
-  }
-  
-  .menu .text-wrapper-4 {
-    color: #000000;
-    font-family: "Poppins", Helvetica;
-    font-size: 13px;
-    font-weight: 600;
-    left: 953px;
-    letter-spacing: -0.39px;
-    line-height: normal;
-    position: absolute;
-    top: 19px;
-  }
-  
-  .menu .group {
-    height: 38px;
-    left: 1077px;
-    position: absolute;
-    top: 11px;
-    width: 83px;
-  }
-  
-  .menu .text-wrapper-5 {
-    color: #000000;
-    font-family: "Poppins", Helvetica;
-    font-size: 13px;
-    font-weight: 600;
-    left: 26px;
-    letter-spacing: -0.39px;
-    line-height: normal;
-    position: absolute;
-    top: 9px;
-  }
-  
-  .menu .overlap-group {
-    height: 60px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1440px;
-  }
-  
-  .menu .line {
-    height: 3%;
-    left: 0;
-    position: absolute;
-    top: 95%;
-    width:100%;
-  }
-  
-  .menu .group-wrapper {
-    height: 60px;
-    left: 225px;
-    position: absolute;
-    top: 0;
-    width: 118px;
-  }
-  
-  .menu .img {
-    height: 20px;
-    left: 20px;
-    position: absolute;
-    top: 20px;
-    width: 78px;
-  }
-  
+  background-color: #ff0808;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw; 
+
+
+}
+.menu .navbar-wrapper {
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: fixed;
+  top: -5px;
+  z-index: 999;
+  height: 5%;
+  min-height: 70px;
+  width: calc(100% - 1.5%);
+  padding: 0 1rem;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  background-color: #ffffff;
+}
+
+
+
+.menu .div {
+  height: 60px;
+  position: absolute;
+}
+
+.menu .text-wrapper {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  left: 729px;
+  letter-spacing: -0.39px;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+}
+
+.menu .text-wrapper-2 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  left: 609px;
+  letter-spacing: -0.39px;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+}
+
+.menu .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  left: 833px;
+  letter-spacing: -0.39px;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+}
+
+.menu .text-wrapper-4 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  left: 953px;
+  letter-spacing: -0.39px;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+}
+
+.menu .group {
+  height: 38px;
+  left: 1077px;
+  position: absolute;
+  top: 11px;
+  width: 83px;
+}
+
+.menu .text-wrapper-5 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  left: 26px;
+  letter-spacing: -0.39px;
+  line-height: normal;
+  position: absolute;
+  top: 9px;
+}
+
+.menu .overlap-group {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+.menu .group-wrapper {
+  height: 60px;
+  left: 225px;
+  position: absolute;
+  top: 0;
+  width: 118px;
+}
+
+.menu .img {
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  width: 78px;
+}
