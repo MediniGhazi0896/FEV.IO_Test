@@ -1,9 +1,10 @@
 import React from "react";
+
 export const Chat = () => {
     return (
 <div className="chat">
 
-            <p className="text-wrapper">Hi, I’m IO, and I’m here to help you find your mobility softwae solution</p>
+            {/* <p className="text-wrapper">Hi, I’m IO, and I’m here to help you find your mobility softwae solution</p>
             <div className="div-wrapper">
               <div className="text-wrapper-2">talk with us </div>
             </div>
@@ -31,7 +32,8 @@ export const Chat = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+            
           </div>
 
 );

@@ -15,14 +15,25 @@ export const Section2 = () => {
             <div className="rectangle" />
           </div>
         </div>
-        <p className="text">
-          <span className="text-wrapper">➔ </span>
-          <span className="span">smarter </span>
-          <span className="text-wrapper">&nbsp;&nbsp; ➔ </span>
-          <span className="span">safer </span>
-          <span className="text-wrapper">&nbsp;&nbsp;&nbsp;&nbsp;➔</span>
-          <span className="span"> better</span>
+        <p class="text">
+           <div class="news-container">
+        <ul>
+            <li>
+            <span class="spansmarter"> Smarter</span>
+            </li>
+            
+            <li>
+            <span class="spansafer"> Safer</span>
+            </li>
+
+            <li>
+            <span class="spanbetter"> better</span>
+            </li>
+        </ul>
+    </div>
         </p>
+
+
         <div className="why-our-mobility">
           why our <br />
           mobility
