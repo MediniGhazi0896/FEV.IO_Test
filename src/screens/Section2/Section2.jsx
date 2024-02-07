@@ -16,18 +16,18 @@ export const Section2 = () => {
           </div>
         </div>
         <p class="text">
-           <div class="news-container">
+           <div class="animation-container">
         <ul>
             <li>
-            <span class="spansmarter"> Smarter</span>
+            <span class="span"> Smarter</span>
             </li>
             
             <li>
-            <span class="spansafer"> Safer</span>
+            <span class="span"> Safer</span>
             </li>
 
             <li>
-            <span class="spanbetter"> better</span>
+            <span class="span"> better</span>
             </li>
         </ul>
     </div>
