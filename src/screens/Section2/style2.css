@@ -181,13 +181,13 @@
   top: 722px;
   white-space: nowrap;
 }
-.news-container {
+.animation-container {
   position: relative;
   font-family: "Roboto", sans-serif;
   box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
 }
 
-.news-container .title {
+.animation-container .title {
   position: absolute;
   background: #df2020;
   height: 100%;
@@ -199,7 +199,7 @@
   z-index: 200;
 }
 
-.news-container ul {
+.animation-container ul {
   display: flex;
   list-style: none;
   margin: 0;
@@ -207,26 +207,33 @@
   animation: scroll 10s infinite linear;
 }
 
-.news-container ul li {
+.animation-container li {
   white-space: nowrap;
   padding: 10px 24px;
   color: #ffffff;
   position: relative;
+  text-transform: uppercase;
+
 }
 
-.news-container ul li::after {
+.animation-container ul li::after {
   content:"";
   width: 1px;
   height: 100%;
-
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
+  color: #df2020;
+}
+.animation-container ul li::before {
+  content:"  +      ";
 }
 
-.news-container ul li:last-child::after {
+.animation-container ul:first-child::before {
   display: none;
+  content:"  =  ";
 }
+
 
 @keyframes scroll {
   from {
