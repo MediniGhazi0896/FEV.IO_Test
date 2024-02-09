@@ -1,40 +1,57 @@
-import React from "react";
+import React, { useState } from 'react';
+import './style.css'; // Import CSS file for styling
 
 export const Chat = () => {
+
+   const [messages, setMessages] = useState([]); // State to store chat messages
+  const [inputValue, setInputValue] = useState(''); // State to manage input value
+  const [isOpen, setIsOpen] = useState(false); // State to manage chat widget visibility
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
+  const handleSendMessage = () => {
+    if (inputValue.trim() !== '') {
+      setMessages([...messages, { text: inputValue, sender: 'user' }]);
+      setInputValue('');
+    }
+  };
+  
+    const toggleChatWidget = () => {
+      setIsOpen(!isOpen);
+      if (!isOpen) {
+        setMessages([]);
+      }
+    };
+  
     return (
-<div className="chat">
-
-            {/* <p className="text-wrapper">Hi, I’m IO, and I’m here to help you find your mobility softwae solution</p>
-            <div className="div-wrapper">
-              <div className="text-wrapper-2">talk with us </div>
-            </div>
-            <div className="overlap-group-wrapper">
-              <div className="overlap-group-2">
-                <div className="rectangle-wrapper">
-                  <div className="rectangle-2" />
-                </div>
-                <div className="group-4">
-                  <div className="group-5">
-                    <div className="group-6">
-                      <div className="rectangle-3" />
-                    </div>
-                    <div className="group-7">
-                      <div className="rectangle-3" />
-                    </div>
-                  </div>
-                  <div className="group-8">
-                    <div className="group-6">
-                      <div className="rectangle-3" />
-                    </div>
-                    <div className="group-7">
-                      <div className="rectangle-3" />
-                    </div>
-                  </div>
-                </div>
+      <div>
+      <div className="floating-action-button" onClick={toggleChatWidget}>
+        {isOpen ? 'Close Chat' : 'Open Chat' }
+      </div>
+      {isOpen && (
+        <div className="chat-widget">
+          <div className="messages">
+            {messages.map((message, index) => (
+              <div key={index} className={`message ${message.sender}`}>
+                {message.text}
               </div>
-            </div> */}
-            
+            ))}
           </div>
-
-);
+          {/* Chat window content */}
+          <div className="input-container">
+            <input
+              type="text"
+              value={inputValue}
+              onChange={handleInputChange}
+              placeholder="Type your message..."
+            />
+            <button onClick={handleSendMessage}>Send</button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
 };
+
