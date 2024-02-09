@@ -7,11 +7,6 @@ export const Section2 = () => {
       <div className="div">
         <div className="group">
           <div className="group-2">
-            <div className="overlap-group">
-              <img className="shape" alt="Shape" src="https://c.animaapp.com/SYXhD16U/img/shape-1.png" />
-              <img className="img" alt="Shape" src="https://c.animaapp.com/SYXhD16U/img/shape-2.png" />
-              <img className="shape-2" alt="Shape" src="https://c.animaapp.com/SYXhD16U/img/shape-2.png" />
-            </div>
             <div className="rectangle" />
           </div>
         </div>
