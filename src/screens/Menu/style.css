@@ -12,10 +12,10 @@
   align-items: center;
   position: -webkit-sticky;
   position: fixed;
-  top: -5px;
+  top: 5px;
   z-index: 999;
   height: 5%;
-  min-height: 70px;
+  min-height: 7%;
   width: calc(100% - 1.5%);
   padding: 0 1rem;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
@@ -34,11 +34,12 @@
   font-family: "Poppins", Helvetica;
   font-size: 13px;
   font-weight: 600;
-  left: 729px;
+  left: 30%;
   letter-spacing: -0.39px;
   line-height: normal;
   position: absolute;
-  top: 19px;
+  text-transform: uppercase;
+
 }
 
 .menu .text-wrapper-2 {
@@ -46,11 +47,12 @@
   font-family: "Poppins", Helvetica;
   font-size: 13px;
   font-weight: 600;
-  left: 609px;
+  left: 37%;
   letter-spacing: -0.39px;
   line-height: normal;
   position: absolute;
-  top: 19px;
+  text-transform: uppercase;
+
 }
 
 .menu .text-wrapper-3 {
@@ -58,11 +60,13 @@
   font-family: "Poppins", Helvetica;
   font-size: 13px;
   font-weight: 600;
-  left: 833px;
+  left: 44%;
   letter-spacing: -0.39px;
   line-height: normal;
   position: absolute;
-  top: 19px;
+
+  text-transform: uppercase;
+
 }
 
 .menu .text-wrapper-4 {
@@ -70,13 +74,26 @@
   font-family: "Poppins", Helvetica;
   font-size: 13px;
   font-weight: 600;
-  left: 953px;
+  left: 51%;
   letter-spacing: -0.39px;
   line-height: normal;
   position: absolute;
-  top: 19px;
-}
 
+  text-transform: uppercase;
+
+}
+.menu .text-wrapper-5 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  left: 58%;
+  letter-spacing: -0.39px;
+  line-height: normal;
+  position: absolute;
+  text-transform: uppercase;
+
+}
 .menu .group {
   height: 38px;
   left: 1077px;
@@ -85,17 +102,7 @@
   width: 83px;
 }
 
-.menu .text-wrapper-5 {
-  color: #000000;
-  font-family: "Poppins", Helvetica;
-  font-size: 13px;
-  font-weight: 600;
-  left: 26px;
-  letter-spacing: -0.39px;
-  line-height: normal;
-  position: absolute;
-  top: 9px;
-}
+
 
 .menu .overlap-group {
   height: 60px;
