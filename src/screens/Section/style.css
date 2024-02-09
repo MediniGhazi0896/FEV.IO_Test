@@ -5,6 +5,7 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
+
 }
 
 .section .div {
@@ -13,288 +14,33 @@
   overflow: hidden;
   position: relative;
   width: 100vw;
-/*   animation: changeColor 100s infinite alternate; */
+
 }
-
-/* @keyframes changeColor {
-  from {
-    background-color: #000000;
-  }
-
-  to {
-    background-color: #ffffff;
-  }
-} */
-
-.section .group {
-  height: 1274px;
-  left: -416px;
-  position: absolute;
-  top: -1814px;
-  transform: rotate(-180deg);
-  width: 1522px;
-}
-
-.section .group-2 {
-  height: 1274px;
-  mix-blend-mode: hard-light;
-  position: relative;
-}
-
-.section .overlap-group {
-  height: 1328px;
-  left: 1337px;
-  position: absolute;
-  top: 15303px;
-  width: 2054px;
-}
-
-.section .shape {
-  height: 1117px;
-  left: 584px;
-  position: absolute;
-  top: 210px;
-  transform: rotate(180deg);
-  width: 1470px;
-}
-
-.section .img {
-  height: 592px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: rotate(180deg);
-  width: 947px;
-}
-
-.section .shape-2 {
-  height: 431px;
-  left: 1429px;
-  position: absolute;
-  top: 253px;
-  transform: rotate(180deg);
-  width: 625px;
-  background-color: #000000;
-}
-
-.section .rectangle {
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
-  height: 1560px;
-  left: 398px;
-  position: absolute;
-  top: 163px;
-  width: 1560px;
-}
-
 .section .overlap {
-  background-size: 100% 100%;
   height: 100%;
   position: absolute;
   top: 0;
   right: 0%;
   width: 50%;
 }
-
-
-.section .icon-cross-ring-two {
-  height: 115px !important;
-  left: 233px !important;
-  position: absolute !important;
-  top: 189px !important;
-  width: 115px !important;
-}
-
-.section .Car {
-  height: 25%;
-  left: 25%;
-  position: absolute;
-  bottom: 10%;
-  width: 13%;
- 
-}
-
-.section .chat {
-  background-color: #171a52;
-  height: 30%;
-  right: 5%;
-  position: absolute;
-  bottom: 3%;
-  width: 25%;
-}
-
-.section .text-wrapper {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 14.3px;
-  font-weight: 400;
-  left: 26px;
-  letter-spacing: -0.43px;
-  line-height: normal;
-  position: absolute;
-  top: 137px;
-  width: 169px;
-}
-
-.section .div-wrapper {
-  height: 24px;
-  left: 41px;
-  position: absolute;
-  top: 25px;
-  width: 102px;
-}
-
-.section .text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 16px;
-  font-weight: 600;
-  left: 0;
-  letter-spacing: -0.48px;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 100px;
-}
-
-.section .overlap-group-wrapper {
-  height: 36px;
-  left: 41px;
-  position: absolute;
-  top: 76px;
-  width: 79px;
-}
-
-.section .overlap-group-2 {
-  height: 36px;
-  position: relative;
-}
-
-.section .rectangle-wrapper {
-  height: 22px;
-  left: 11px;
-  position: absolute;
-  top: 7px;
-  width: 56px;
-}
-
-.section .rectangle-2 {
-  border: 4.78px solid;
-  border-color: #ffffff;
-  border-radius: 25.16px;
-  height: 56px;
-  left: 17px;
-  position: relative;
-  top: -17px;
-  transform: rotate(-90deg);
-  width: 22px;
-}
-
-.section .group-4 {
-  height: 36px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 79px;
-}
-
-.section .group-5 {
-  height: 36px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 11px;
-}
-
-.section .group-6 {
-  height: 5px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: rotate(180deg);
-  width: 11px;
-}
-
-.section .rectangle-3 {
-  background-color: #ffffff;
-  border: 0px none;
-  border-radius: 25.16px;
-  height: 11px;
-  left: 3px;
-  position: relative;
-  top: -3px;
-  transform: rotate(-90deg);
-  width: 5px;
-}
-
-.section .group-7 {
-  height: 5px;
-  left: 0;
-  position: absolute;
-  top: 32px;
-  transform: rotate(180deg);
-  width: 11px;
-}
-
-.section .group-8 {
-  height: 36px;
-  left: 67px;
-  position: absolute;
-  top: 0;
-  width: 11px;
-}
-
-.section .group-9 {
-  height: 1274px;
-  left: -1285px;
-  mix-blend-mode: hard-light;
-  position: absolute;
-  top: 740px;
-  transform: rotate(-180deg);
-  width: 1522px;
-}
-
-.section .overlap-2 {
-  height: 1328px;
-  left: 468px;
-  position: absolute;
-  top: 17457px;
-  width: 100vw;
-}
-
-.section .shape-3 {
-  height: 82px;
-  left: -26px;
-  position: absolute;
-  top: 1034px;
-  transform: rotate(180deg);
-  width: 263px;
-}
-
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  height: 100vh;
 }
 
-.left {
-  width: 22%;
 
+.left {
+  background: rgb(0, 0, 0);
+  width: 22%;
 }
 
 .right {
   height: 100%;
   width: 20%;
   animation: loopAnimation 1s infinite linear;
-}
-@keyframes loopAnimation {
-  0%{
-    transform: translateY(-100%);
-    /* Start at the top */
-  }
-  -100% {
-    transform: translateY(100%);
-    /* Move to the bottom */
-  }
+
 }
 
 .right1 {
@@ -318,16 +64,61 @@
   background: rgb(0, 0, 0);
   margin-top: 260%;
 }
-.right4{
+
+.section .group-9 {
+height: 100%;
   width: 100%;
-  height: 40%;
-  background: rgb(0, 0, 0);
-  margin-top: 0%;
+  color: #7bff00;
 }
-.container {
-  height: 100vh
+.section .Car {
+  height: 25%;
+  left: 25%;
+  position: absolute;
+  bottom: 10%;
+  width: 13%;
+  animation: vertical-shaking 0.70s infinite;
 }
 
-.left {
-  background: rgb(0, 0, 0)
+.section .chat {
+  background-color: #171a52;
+  height: 30%;
+  right: 5%;
+  position: absolute;
+  bottom: 3%;
+  width: 25%;
+}
+
+@keyframes vertical-shaking {
+  0% {
+    transform: translateY(0)
+  }
+
+  25% {
+    transform: translateY(5px)
+  }
+
+  50% {
+    transform: translateY(-5px)
+  }
+
+  75% {
+    transform: translateY(5px)
+  }
+
+  100% {
+    transform: translateY(0)
+  }
+}
+
+
+@keyframes loopAnimation {
+  0% {
+    transform: translateY(-100%);
+    /* Start at the top */
+  }
+
+  -100% {
+    transform: translateY(100%);
+    /* Move to the bottom */
+  }
 }
