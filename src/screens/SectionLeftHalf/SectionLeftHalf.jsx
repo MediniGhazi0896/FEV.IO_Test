@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css"
-
+import Button from '@mui/material/Button';
 export const SectionLeftHalf = () => {
     return (
 <div className="sectionleft">
@@ -16,11 +16,11 @@ export const SectionLeftHalf = () => {
   <span className="text-wrapper-4">smarter</span>
 </p>
 <div className="overlap-wrapper">
-  <div className="overlap-3">
-    <div className="text-wrapper-5"><a id="Link" href="https://www.Google.com">book a demo →</a></div>
+ 
+    <Button className="" variant="contained">Book A Demo </Button>
   </div>
 </div>
-</div>
+
 
 );
 };
