@@ -1,9 +1,46 @@
 import React, { useState } from 'react';
 import './style.css'; // Import CSS file for styling
+import Box from '@mui/material/Box';
+import Fab from '@mui/material/Fab';
+import TextField from '@mui/material/TextField';
+import EditIcon from '@mui/icons-material/Edit';
+import { styled } from '@mui/material/styles';
+import Badge from '@mui/material/Badge';
+import Avatar from '@mui/material/Avatar';
+import { Paper } from '@mui/material';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
+const StyledBadge = styled(Badge)(({ theme }) => ({
+  '& .MuiBadge-badge': {
+    backgroundColor: '#44b700',
+    color: '#44b700',
+    boxShadow: `0 0 0 1px ${theme.palette.background.paper}`,
+    '&::after': {
+      position: 'absolute',
+      top: 0,
+      left: -1,
+      width: '100%',
+      height: '100%',
+      borderRadius: '50%',
+      animation: 'ripple 1.2s infinite ease-in-out',
+      border: '1px solid currentColor',
+      content: '""',
+    },
+  },
+  '@keyframes ripple': {
+    '0%': {
+      transform: 'scale(.8)',
+      opacity: 1,
+    },
+    '100%': {
+      transform: 'scale(2.4)',
+      opacity: 0,
+    },
+  },
+}));
 export const Chat = () => {
 
-   const [messages, setMessages] = useState([]); // State to store chat messages
+  const [messages, setMessages] = useState([]); // State to store chat messages
   const [inputValue, setInputValue] = useState(''); // State to manage input value
   const [isOpen, setIsOpen] = useState(false); // State to manage chat widget visibility
 
@@ -17,39 +54,98 @@ export const Chat = () => {
       setInputValue('');
     }
   };
-  
-    const toggleChatWidget = () => {
-      setIsOpen(!isOpen);
-      if (!isOpen) {
-        setMessages([]);
-      }
-    };
-  
-    return (
-      <div>
-      <div className="floating-action-button" onClick={toggleChatWidget}>
-        {isOpen ? 'Close Chat' : 'Open Chat' }
+
+  const toggleChatWidget = () => {
+    setIsOpen(!isOpen);
+    if (!isOpen) {
+      setMessages([]);
+    }
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.keyCode === 13) { // Check if the pressed key is the enter key
+      handleSendMessage(); // Call the function to send the message
+    }
+  };
+  return (
+
+    <div>
+
+      <div className="floating-action-button" >
+        <Box sx={{ '& > :not(style)': { m: 1 } }}>
+          <Fab color="primary" aria-label="edit" onClick={toggleChatWidget}>
+            <EditIcon />
+
+          </Fab>
+        </Box>
+
       </div>
+
       {isOpen && (
+
         <div className="chat-widget">
-          <div className="messages">
-            {messages.map((message, index) => (
-              <div key={index} className={`message ${message.sender}`}>
-                {message.text}
-              </div>
-            ))}
-          </div>
           {/* Chat window content */}
-          <div className="input-container">
-            <input
-              type="text"
+          <Box>
+            <Paper elevation={2} style={{
+              position: "absolute",
+              width: "95%",
+              height: "13%",
+              padding: "10px",
+              backgroundColor: '#0c035c',
+              borderRadius: "8px",
+            }}>
+
+              <StyledBadge
+                overlap="circular"
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+                variant="dot"
+                style={{
+                  position: "absolute",
+                  padding: "15px",
+                  left: "20%",
+                  bottom: "12%",
+                }}>
+
+                <Avatar alt="FevBot" src="C:/Users/Medin/OneDrive/Documents/Internships Coding Folder/FEV.IO/FEV.IO_Test/src/icons/Chat Icons/robot.png" />
+              </StyledBadge>
+              <ArrowBackIosNewIcon sx={{ fontSize: 28 }} style={{
+                position: "absolute",
+                padding: "15px",
+                left: "5%",
+                color: '#FFFFFF',
+                bottom: "16%",
+              }} onClick={toggleChatWidget} > </ArrowBackIosNewIcon>
+              <div > <p className='ChatBotName'> <b>FEV.IOBot</b></p></div>
+              <div > <p className='ChatBotStatus'>Online</p></div>
+
+            </Paper>
+
+
+            <div className="messages">
+              {messages.map((message, index) => (
+                <div key={index} className={`message ${message.sender}`}>
+                  {message.text}
+                </div>
+              ))}
+            </div>
+            <TextField
+              label="Type your message..."
               value={inputValue}
+              color="primary"
               onChange={handleInputChange}
-              placeholder="Type your message..."
+              onKeyDown={handleKeyDown} // Add event handler for key down
+              style={{
+                position: "absolute",
+                bottom: "10px",
+                width: "90%",
+                padding: "10px",
+                left: "10px",
+              }}
             />
-            <button onClick={handleSendMessage}>Send</button>
-          </div>
+          </Box>
         </div>
+
+
       )}
     </div>
   );
