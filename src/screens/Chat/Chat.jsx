@@ -9,6 +9,7 @@ import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
 import { Paper } from '@mui/material';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   '& .MuiBadge-badge': {
@@ -58,6 +59,13 @@ export const Chat = () => {
   const toggleChatWidget = () => {
     setIsOpen(!isOpen);
     if (!isOpen) {
+      // Add welcome message when the chat widget opens up
+      setMessages([
+        ...messages,
+        { text: "Hello, I'm FEV.IO Bot. How can I help you today?", sender: 'bot' }
+      ]);
+    } else {
+      // Clear messages when the chat widget is closed
       setMessages([]);
     }
   };
@@ -73,9 +81,9 @@ export const Chat = () => {
 
       <div className="floating-action-button" >
         <Box sx={{ '& > :not(style)': { m: 1 } }}>
-          <Fab color="primary" aria-label="edit" onClick={toggleChatWidget}>
-            <EditIcon />
-
+          
+            <Fab color="primary" aria-label="edit" onClick={toggleChatWidget}>
+            {isOpen ? <KeyboardArrowDownIcon sx={{ fontSize: 38 }}/> :  <EditIcon />}
           </Fab>
         </Box>
 
