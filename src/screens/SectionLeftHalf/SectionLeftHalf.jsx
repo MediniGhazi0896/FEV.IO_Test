@@ -17,7 +17,10 @@ export const SectionLeftHalf = () => {
 </p>
 <div className="overlap-wrapper">
  
-    <Button className="" variant="contained">Book A Demo </Button>
+    <Button style={{
+              position: "absolute",
+              left:"8%",
+            }} variant="contained">Book A Demo </Button>
   </div>
 </div>
 
