@@ -59,16 +59,20 @@ export const Chat = () => {
   const toggleChatWidget = () => {
     setIsOpen(!isOpen);
     if (!isOpen) {
-      // Add welcome message when the chat widget opens up
+      // Add default static messages when the chat widget opens up
       setMessages([
-        ...messages,
-        { text: "Hello, I'm FEV.IO Bot. How can I help you today?", sender: 'bot' }
+        { text: 'Welcome to FEV.IO Bot! How can I assist you today?', sender: 'bot' },
+        { text: 'We provide services in the following areas:', sender: 'bot' },
+        { text: 'ADAS-AD / Software Integration / Infotainment / Systems Engineering  / Functional Safety /  Connected Mobility / Software Platforms' ,sender: 'bot' },
+      
+        { text: 'Please let me know which area you would like assistance with.', sender: 'bot' }
       ]);
     } else {
       // Clear messages when the chat widget is closed
       setMessages([]);
     }
   };
+  
 
   const handleKeyDown = (event) => {
     if (event.keyCode === 13) { // Check if the pressed key is the enter key
